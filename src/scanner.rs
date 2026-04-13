@@ -5,6 +5,7 @@ use std::collections::HashMap;
 use std::collections::HashSet;
 use std::process::Command;
 use sysinfo::System;
+use std::fs;
 
 pub struct Scanner {
     config: Config,

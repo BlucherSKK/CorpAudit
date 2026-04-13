@@ -15,6 +15,7 @@ fi
 
 # Build in release mode
 echo "Building release binary..."
+rustup target add x86_64-unknown-linux-musl
 cargo build --release --target x86_64-unknown-linux-musl
 
 # Check if build succeeded

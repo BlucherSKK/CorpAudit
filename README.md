@@ -7,7 +7,7 @@ CorpAudit is a command-line tool that scans your system for:
 - **Application bloat** - Resource-heavy apps wasting your system
 - **Privacy violations** - Unnecessary permissions and access
 
-## Why We Built This
+## Why I Built This
 
 Corporate software increasingly ships with hidden telemetry and data collection. Modern applications are bloated with unnecessary features and dependencies. Users deserve transparency about what's running on their systems. Privacy should be the default, not an afterthought.
 
@@ -15,12 +15,12 @@ This tool gives you the power to audit, understand, and reclaim control over you
 
 ## Features
 
-- 🔍 **Comprehensive Scanning** - Detect telemetry, bloat, and permission issues
-- 🛡️ **Privacy-First** - No telemetry, no cloud dependencies, no vendor lock-in
-- 🔧 **Fix Generation** - Generate scripts to fix identified issues
-- 📊 **Multiple Output Formats** - Text, JSON, and Markdown reports
-- ⚙️ **Configurable** - Customize thresholds and detection rules
-- 🚀 **Fast** - Written in Rust for performance and safety
+-  **Comprehensive Scanning** - Detect telemetry, bloat, and permission issues
+-  **Privacy-First** - No telemetry, no cloud dependencies, no vendor lock-in
+-  **Fix Generation** - Generate scripts to fix identified issues
+-  **Multiple Output Formats** - Text, JSON, and Markdown reports
+-  **Configurable** - Customize thresholds and detection rules
+-  **Fast** - Written in Rust for performance and safety
 
 ## Installation
 
@@ -33,16 +33,6 @@ cd corpaudit
 
 # Build the project
 cargo build --release
-
-# Install (optional)
-sudo cp target/release/corpaudit /usr/local/bin/
-```
-
-### Cargo Install
-
-```bash
-cargo install corpaudit
-```
 
 ## Usage
 
@@ -111,20 +101,24 @@ corpaudit --all --quiet
 ```bash
 $ corpaudit --telemetry
 
-╔══════════════════════════════════════════════════════════════╗
-║                                                              ║
-║   ██████╗ ██████╗ ███████╗████████╗███████╗██████╗          ║
-║  ██╔════╝██╔═══██╗██╔════╝╚══██╔══╝██╔════╝██╔══██╗         ║
-║  ██║     ██║   ██║███████╗   ██║   █████╗  ██████╔╝         ║
-║  ██║     ██║   ██║╚════██║   ██║   ██╔══╝  ██╔══██╗         ║
-║  ╚██████╗╚██████╔╝███████║   ██║   ███████╗██║  ██║         ║
-║   ╚═════╝ ╚═════╝ ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝         ║
-║                                                              ║
-║                    A U D I T   T O O L                       ║
-║                                                              ║
-║  See what's spying, bloating, or enslaving your system.     ║
-║  Then fix it.                                                ║
-╚══════════════════════════════════════════════════════════════╝
+"
+  /$$$$$$                                 /$$$$$$                  /$$ /$$   /$$
+ /$$__  $$                               /$$__  $$                | $$|__/  | $$
+| $$  \__/  /$$$$$$   /$$$$$$   /$$$$$$ | $$  \ $$ /$$   /$$  /$$$$$$$ /$$ /$$$$$$
+| $$       /$$__  $$ /$$__  $$ /$$__  $$| $$$$$$$$| $$  | $$ /$$__  $$| $$|_  $$_/
+| $$      | $$  \ $$| $$  \__/| $$  \ $$| $$__  $$| $$  | $$| $$  | $$| $$  | $$
+| $$    $$| $$  | $$| $$      | $$  | $$| $$  | $$| $$  | $$| $$  | $$| $$  | $$ /$$
+|  $$$$$$/|  $$$$$$/| $$      | $$$$$$$/| $$  | $$|  $$$$$$/|  $$$$$$$| $$  |  $$$$/
+ \______/  \______/ |__/      | $$____/ |__/  |__/ \______/  \_______/|__/   \___/
+                              | $$
+                              | $$
+                              |__/
+
+                   A U D I T   T O O L
+
+  See what's spying, bloating, or enslaving your system.
+  Then fix it.
+  "
 
 Scanning for telemetry and data collection...
 
@@ -243,7 +237,7 @@ CorpAudit is designed to be safe by default:
 
 ## Contributing
 
-We welcome contributions! Please see our contributing guidelines for details.
+I welcome contributions! Please see our contributing guidelines for details.
 
 ## License
 
@@ -263,8 +257,8 @@ CorpAudit is provided as-is for educational and informational purposes. Always r
 
 ## Support
 
-- GitHub Issues: https://github.com/yourusername/corpaudit/issues
-- Documentation: https://github.com/yourusername/corpaudit/wiki
+- GitHub Issues: https://github.com/aidurr/CorpAudit/issues
+- Documentation: https://github.com/aidurr/CorpAudit/wiki
 
 ---
 
